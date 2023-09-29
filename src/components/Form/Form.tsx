@@ -57,6 +57,7 @@ export default function Form({
           aria-label="Search"
           value={accessCode}
           onChange={(e: React.SyntheticEvent) =>
+            //@ts-ignore
             onChange(e.target.value.toUpperCase())
           }
         />
