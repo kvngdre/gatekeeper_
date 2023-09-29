@@ -41,7 +41,6 @@ function App() {
 
   function handleSearch(accessCode: string) {
     setFoundUser(users.find((u) => u.accessCode === accessCode));
-    console.log(foundUser);
 
     setIsSearching(true);
     setCardVisibility(true);
