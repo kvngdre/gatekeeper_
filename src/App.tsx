@@ -37,7 +37,7 @@ function App() {
     update();
   }, 300_000);
 
-  useEffect(() => update, []);
+  useEffect(() => update(), []);
 
   function handleSearch(accessCode: string) {
     setFoundUser(users.find((u) => u.accessCode === accessCode));
