@@ -33,9 +33,9 @@ function App() {
     });
   }
 
-  setInterval(() => {
-    update();
-  }, 300_000);
+  // setInterval(() => {
+  //   update();
+  // }, 300_000);
 
   useEffect(() => update(), []);
 
